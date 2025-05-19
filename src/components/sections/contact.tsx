@@ -43,16 +43,33 @@ export function Contact() {
     },
   });
 
-  function onSubmit(data: FormValues) {
+  async function onSubmit(values: FormValues) {
     setIsSubmitting(true);
-    
-    // Simulate form submission
-    setTimeout(() => {
-      console.log(data);
+
+     try {
+      const response = await fetch(
+        `/api/send-booking`,
+        {
+          method: "POST",
+          headers: {
+            "Content-Type": "application/json",
+          },
+          body: JSON.stringify(values),
+        },
+      );
+
+      const data = await response.json();
+      if (response.ok) {
       toast.success("Message sent successfully!");
-      form.reset();
+      } else {
+        toast.error(`${data.message}`);
+      }
+    } catch (error) {
+      toast.error("Submission error");
+    } finally {
       setIsSubmitting(false);
-    }, 1500);
+    }
+    
   }
 
   return (
