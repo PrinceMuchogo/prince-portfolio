@@ -65,12 +65,12 @@ export function Header() {
               {item.label}
             </Link>
           ))}
-          <ThemeToggle />
+          {/* <ThemeToggle /> */}
         </nav>
 
         {/* Mobile Navigation Toggle */}
         <div className="flex items-center md:hidden">
-          <ThemeToggle />
+          {/* <ThemeToggle /> */}
           <Button
             variant="ghost"
             size="icon"
