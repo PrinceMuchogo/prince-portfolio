@@ -4,6 +4,8 @@ export const PERSONAL_DATA = {
   email: "princemuchogo@gmail.com",
   phone: "+263 77 653 1418",
   location: "Harare, Zimbabwe",
+  photo:
+    "https://images.pexels.com/photos/2379004/pexels-photo-2379004.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
   socials: {
     github: "https://github.com/princemuchogo",
     linkedin: "https://linkedin.com/in/princemuchogo",
@@ -22,7 +24,12 @@ export const EXPERIENCE_DATA = [
     period: "2023 - Present",
     description:
       "Leading a team of developers in creating innovative software solutions focused on AI and IoT integration for enterprise clients.",
-    skills: ["Leadership", "Business Development", "System Architecture", "AI Integration"],
+    skills: [
+      "Leadership",
+      "Business Development",
+      "System Architecture",
+      "AI Integration",
+    ],
   },
   {
     id: 2,
@@ -31,7 +38,12 @@ export const EXPERIENCE_DATA = [
     period: "2023 - 2024",
     description:
       "Developed enterprise software solutions, focusing on payment processing systems and data analytics platforms.",
-    skills: ["Software Development", "Payment Systems", "Data Analytics", "Enterprise Solutions"],
+    skills: [
+      "Software Development",
+      "Payment Systems",
+      "Data Analytics",
+      "Enterprise Solutions",
+    ],
   },
 ];
 
@@ -62,8 +74,15 @@ export const PROJECTS_DATA = [
       "Visual impairment affects millions worldwide, limiting independence and quality of life.",
     solution:
       "Created smart glasses that capture images, identify objects using AI, and communicate information audibly to the user.",
-    technologies: ["ESP32", "React Native", "FastAPI", "OpenAI DALL-E", "IoT Sensors"],
-    image: "https://images.pexels.com/photos/3861969/pexels-photo-3861969.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
+    technologies: [
+      "ESP32",
+      "React Native",
+      "FastAPI",
+      "OpenAI DALL-E",
+      "IoT Sensors",
+    ],
+    image:
+      "https://images.pexels.com/photos/3861969/pexels-photo-3861969.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
     link: "#contact",
   },
   {
@@ -75,8 +94,14 @@ export const PROJECTS_DATA = [
       "Healthcare providers struggle with fragmented patient information across multiple systems.",
     solution:
       "Developed a unified platform to securely store and manage all patient data, improving healthcare delivery and record accessibility.",
-    technologies: ["Next.js", "TypeScript", "Uploadcare", "Database Management"],
-    image: "https://images.pexels.com/photos/7089401/pexels-photo-7089401.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
+    technologies: [
+      "Next.js",
+      "TypeScript",
+      "Uploadcare",
+      "Database Management",
+    ],
+    image:
+      "https://images.pexels.com/photos/7089401/pexels-photo-7089401.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
     link: "#contact",
   },
   {
@@ -89,7 +114,8 @@ export const PROJECTS_DATA = [
     solution:
       "Created a specialized sentiment analysis tool for Shona, enabling businesses to understand customer feedback in local languages.",
     technologies: ["OpenAI", "RAG", "FastAPI", "NLP", "Python"],
-    image: "https://images.pexels.com/photos/590022/pexels-photo-590022.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
+    image:
+      "https://images.pexels.com/photos/590022/pexels-photo-590022.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
     link: "#contact",
   },
   {
@@ -102,7 +128,8 @@ export const PROJECTS_DATA = [
     solution:
       "Implemented an advanced machine learning system that analyzes transaction patterns to identify potential fraud in real-time.",
     technologies: ["FastAPI", "Next.js", "Random Forest", "Machine Learning"],
-    image: "https://images.pexels.com/photos/5926393/pexels-photo-5926393.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
+    image:
+      "https://images.pexels.com/photos/5926393/pexels-photo-5926393.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
     link: "#contact",
   },
   {
@@ -114,8 +141,14 @@ export const PROJECTS_DATA = [
       "Manual expense management creates administrative burden and lacks transparency.",
     solution:
       "Built an automated system that streamlines expense requests, approvals, and reconciliation while enhancing accountability.",
-    technologies: ["Next.js", "TypeScript", "API Integration", "Workflow Automation"],
-    image: "https://images.pexels.com/photos/7567474/pexels-photo-7567474.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
+    technologies: [
+      "Next.js",
+      "TypeScript",
+      "API Integration",
+      "Workflow Automation",
+    ],
+    image:
+      "https://images.pexels.com/photos/7567474/pexels-photo-7567474.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
     link: "#contact",
   },
   {
@@ -128,7 +161,8 @@ export const PROJECTS_DATA = [
     solution:
       "Developed an intelligent system that flags potential tax evasion by analyzing financial patterns and identifying inconsistencies.",
     technologies: ["FastAPI", "Machine Learning", "Next.js", "Data Analysis"],
-    image: "https://images.pexels.com/photos/6693663/pexels-photo-6693663.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
+    image:
+      "https://images.pexels.com/photos/6693663/pexels-photo-6693663.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
     link: "#contact",
   },
 ];

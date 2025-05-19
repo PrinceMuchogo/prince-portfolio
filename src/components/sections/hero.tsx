@@ -1,5 +1,6 @@
 "use client";
 
+import Image from "next/image";
 import { motion } from "framer-motion";
 import { Button } from "@/components/ui/button";
 import { ArrowDownCircle, Cpu, Database, Globe } from "lucide-react";
@@ -33,8 +34,25 @@ export function Hero() {
               </span>
             </div>
 
+            {/* <div className="lg:hidden mb-8 flex justify-center">
+              <motion.div
+                initial={{ opacity: 0, scale: 0.5 }}
+                animate={{ opacity: 1, scale: 1 }}
+                transition={{ duration: 0.5 }}
+                className="relative w-48 h-48 rounded-full overflow-hidden border-4 border-white/10 shadow-xl"
+              >
+                <Image
+                  src={PERSONAL_DATA.photo}
+                  alt={PERSONAL_DATA.name}
+                  fill
+                  className="object-cover"
+                  priority
+                />
+              </motion.div>
+            </div> */}
+
             <h1 className="text-4xl md:text-5xl lg:text-6xl font-bold mb-6 leading-tight">
-              <span className="block">Hi, I&apos;m</span>
+              <span className="block">Hi, I'm</span>
               <span className="bg-clip-text text-transparent bg-gradient-to-r from-blue-600 to-violet-600 dark:from-blue-400 dark:to-violet-400">
                 {PERSONAL_DATA.name}
               </span>
@@ -74,9 +92,25 @@ export function Hero() {
             initial={{ opacity: 0, scale: 0.8 }}
             animate={{ opacity: 1, scale: 1 }}
             transition={{ duration: 0.8, delay: 0.2 }}
+            viewport={{ once: true }}
           >
             <div className="relative w-full h-[500px] bg-gradient-to-br from-blue-600/20 to-purple-600/20 dark:from-blue-500/10 dark:to-purple-500/10 rounded-2xl overflow-hidden backdrop-blur-sm border border-white/10">
-              <div className="absolute top-10 left-10 p-6 bg-white/10 dark:bg-white/5 backdrop-blur-lg rounded-xl border border-white/10 shadow-xl">
+              {/* <motion.div
+                initial={{ opacity: 0, x: -50 }}
+                animate={{ opacity: 1, x: 0 }}
+                transition={{ duration: 0.5, delay: 0.5 }}
+                className="absolute -left-8 top-8 w-48 h-48 rounded-full overflow-hidden border-4 border-white/10 shadow-xl"
+              >
+                <Image
+                  src={PERSONAL_DATA.photo}
+                  alt={PERSONAL_DATA.name}
+                  fill
+                  className="object-cover"
+                  priority
+                />
+              </motion.div> */}
+
+              <div className="absolute top-10 right-10 p-6 bg-white/10 dark:bg-white/5 backdrop-blur-lg rounded-xl border border-white/10 shadow-xl">
                 <Cpu size={32} className="text-blue-500 mb-3" />
                 <h3 className="font-bold mb-1">AI Solutions</h3>
                 <p className="text-sm text-muted-foreground">Cutting-edge machine learning implementations</p>
