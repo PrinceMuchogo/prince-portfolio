@@ -34,7 +34,7 @@ export function Hero() {
             </div>
 
             <h1 className="text-4xl md:text-5xl lg:text-6xl font-bold mb-6 leading-tight">
-              <span className="block">Hi, I'm</span>
+              <span className="block">Hi, I&apos;m</span>
               <span className="bg-clip-text text-transparent bg-gradient-to-r from-blue-600 to-violet-600 dark:from-blue-400 dark:to-violet-400">
                 {PERSONAL_DATA.name}
               </span>

@@ -21,7 +21,7 @@ export function Experience() {
             Experience & Skills
           </h2>
           <p className="text-muted-foreground max-w-2xl mx-auto">
-            My professional journey and the expertise I've developed along the way.
+            My professional journey and the expertise I&apos;ve developed along the way.
           </p>
         </motion.div>
 
