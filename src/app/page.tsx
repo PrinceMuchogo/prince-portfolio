@@ -1,16 +1,15 @@
-import { Metadata } from "next";
-import React from "react";
-
-export const metadata: Metadata = {
-  title:
-    "Next.js E-commerce Dashboard Page | NextAdmin - Next.js Dashboard Kit",
-  description: "This is Next.js Home page for NextAdmin Dashboard Kit",
-};
+import { Hero } from '@/components/sections/hero';
+import { Experience } from '@/components/sections/experience';
+import { Projects } from '@/components/sections/projects';
+import { Contact } from '@/components/sections/contact';
 
 export default function Home() {
   return (
-    <div>
-      Home
-    </div>
+    <>
+      <Hero />
+      <Experience />
+      <Projects />
+      <Contact />
+    </>
   );
 }
