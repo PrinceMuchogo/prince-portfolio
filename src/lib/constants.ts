@@ -86,24 +86,28 @@ export const PROJECTS_DATA = [
     link: "#contact",
   },
   {
-    id: 2,
-    title: "Patient Management System",
+    id: 3,
+    title: "Law Firm Management System",
     description:
-      "A comprehensive repository for patient information, including medical records and doctor-patient interactions.",
+      "A cloud-based law firm management platform designed to streamline client, matter, billing, and case workflows in one centralized system.",
     problem:
-      "Healthcare providers struggle with fragmented patient information across multiple systems.",
+      "Law firms often face challenges with fragmented case management, manual billing, and poor collaboration across departments. This leads to inefficiency, data silos, and delayed decision-making.",
     solution:
-      "Developed a unified platform to securely store and manage all patient data, improving healthcare delivery and record accessibility.",
+      "Developed a secure, cloud-hosted management system that unifies all legal operations — from client onboarding and conflict checks to matter tracking, invoicing, and reporting. The solution automates workflows, ensures compliance, and allows real-time collaboration between lawyers, clients, and administrators from anywhere.",
     technologies: [
-      "Next.js",
+      "Next.js (Full Stack)",
       "TypeScript",
-      "Uploadcare",
-      "Database Management",
+      "PostgreSQL",
+      "Prisma ORM",
+      "Cloudinary (Document Management)",
+      "Zustand (State Management)",
+      "Shadcn/UI",
     ],
     image:
-      "https://images.pexels.com/photos/7089401/pexels-photo-7089401.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
+      "https://images.pexels.com/photos/5668773/pexels-photo-5668773.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
     link: "#contact",
   },
+
   {
     id: 3,
     title: "Shona Sentiment Analysis",
